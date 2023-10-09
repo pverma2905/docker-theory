@@ -1,0 +1,33 @@
+###########Flow of docker Left to right:-#######################
+=>Registry->image->container->container start-> running container
+
+
+##############From image to container:-###################
+(I)
+1)docker pull 
+2)docker create
+3)docker start 
+
+(II)
+
+1)docker run -it --name="" ubuntu:latest /bin/bash
+
+###################Flow Of Docker Right to left :-######################
+=>running container->stop->image->registry
+
+##############From container to image:-###################
+
+1)docker login
+winpty docker login/docker login
+
+2)docker stop
+docker stop containerID
+create repository in dockerhub
+
+3)From container to image
+docker commmit containerID pranavv481/pranav_image1:v1
+docker images
+
+4)image upload to docker hub
+docker images
+docker push newlyimages:tag

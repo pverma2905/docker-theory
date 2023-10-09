@@ -1,0 +1,16 @@
+=>In Dockerfile D is capital 
+=>There is no extension in docker file
+=>there should be nos space in docker file
+=>Docker file should be present at the root level of your frontend and backend application
+
+commands:-
+1)docker build -t image_debian:v1 .
+2)docker images
+3)docker run -i -t -p 3000 image_debian:v1 /bin/bash
+
+docker commit containerID <Repourl>
+docker push <Repourl>
+
+
+
+

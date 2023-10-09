@@ -1,0 +1,8 @@
+i=>insert mode
+w=>save
+q=>quit
+!=>without save
+esc=>command mode
+dd=> delete line
+
+:wq

@@ -1,0 +1,15 @@
+whoami
+exit
+clear/ctrl+l
+docker --version
+ls -al
+pwd
+cat:-display the content of the file
+
+
+######################Permission String######################
+
+drwxrwxrwx=>start with d is called directory
+-rwxrwxrwx=> start with - is called file
+lrwxrwxrwx=> start with l is called shortcut link
+

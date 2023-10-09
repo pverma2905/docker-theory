@@ -1,0 +1,42 @@
+os :-
+it is two type:
+1)host os
+2)virtual os
+
+=>it is launched 2013
+=>docker version 24
+
+########## check latest  version ##################
+docker change log
+
+1)Docker give you the virtual environment
+2)Microservices run on isolated environment
+3)Deliver the faster application
+No need to worry about production/test/release
+4)it give the environment development ,testing ,production
+
+=>win+r services.msc
+=>find docker desktop service and start
+
+5)we can put monolithic app and microservice app oon both
+
+
+
+#Differnce b/w Github and Docker
+Github:-
+1)It store source code
+2)Maximum 100 mb per file is allowed
+Docker:-
+1)It store images
+2)there is no size restriction
+
+#Docker Architecture:-
+1)Docker client:-
+tools and software u install in your machine
+
+2)Docker Daemon:-
+it is a service that run inside your machine as background service
+
+3)Docker Registry
+Website/cloud app(http://hub.docker.com)
+

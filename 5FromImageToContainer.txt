@@ -1,0 +1,7 @@
+1)docker pull alpine
+2)docker run -it --name ac2 alpine:latest /bin/sh
+3)docker exec container_name/id touch /home/front.txt 
+3)docker exec container_name/id touch /home/back.txt 
+
+################## check file in home running container:- ####################
+docker exec ac2 ls -al /home

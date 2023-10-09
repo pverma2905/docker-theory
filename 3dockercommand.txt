@@ -1,0 +1,92 @@
+->we can create one or multiple container from image 
+->we can create container from image and vice-versa 
+-> container hold the application  
+
+Type of linux shell?
+1)Bourne again shell(bash) /bin/bash
+2)C shell(csh)
+3)Bourne shell(sh)
+4)Z shell(zsh)
+5)korn shell(ksh)
+
+1)pull image
+docker image pull <image:tag>
+docker pull ubuntu:latest
+docker run node:20-bookworm-slim
+
+
+2)Display download images
+docker images/docker image ls
+
+3)Remove images
+docker image rmi <imageID>/<name:tag>
+docker rmi <imageId>/<image name:tag>
+
+4)create container from image
+docker container create --name ubuntu1 <imageId>
+docker create --name ubuntu2 <name:tag>
+docker create --name uc2 -it ubuntu2 <name:tag> /bin/bash
+
+5)show all container process status/ check container is make/ stop and running
+docker ps -a
+
+6)only running container?
+docker ps
+
+7)delete container?
+docker rm <containerId>/<name>
+
+8)start the container?
+docker start <containerName/containerId>
+docker start -d <containerName/containerId>
+
+9)How to make the container is running and inside the container?
+docker run -it ubuntu:latest /bin/bash
+
+10)docker container always running detach mode?
+docker run -d --restart always ubuntu:22.10
+
+10)go inside the container?
+docker exec -it containerId /bin/bash
+docker attach containerId /bin/bash
+
+11)docker run is the combination of 3 command?
+docker pull
+docker create
+docker start
+
+docker run -it ubuntu:latest
+winpty docker run -it ubuntu:latest
+
+12)how to copy a file from host machine to container? 
+docker cp pranav.txt uc1:/home
+
+
+13)delete stop container?
+docker container prune -a
+
+14)delete created,exited,stopped container?
+docker system prune -a
+
+15)delete running container?
+docker stop <containerId/containerName>
+docker system prune -a
+
+###################Flow Of Docker######################
+=>running container->stop->image->registry
+
+winpty docker login/docker login
+docker stop containerID
+create repository in dockerhub
+
+16)From container to image
+docker commmit containerID pranavv481/pranav_image1:v1
+docker images
+
+17)image upload to docker hub
+docker push newlyimages:tag
+
+
+16)delete volume?
+docker volume prune -a
+

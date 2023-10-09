@@ -1,0 +1,25 @@
+=>alipine => apk add vim => /bin/sh => 
+=>ubuntu =>sudo apt install vim,apt-get => /bin/bash => advance package tool
+=>centos =>yum => /bin/bash
+
+
+
+programming language:-
+
+=>php => composer
+=>python => pip
+=>node => npm /yarn
+=>ruby => gem
+
+
+=> how to check the version of linux kernal?
+uname -r
+uname -a
+
+=> what is linux kernal?
+it is small program which communicate with hardware resource like Ram , cpu, HDD, Network devices, I/O
+
+
+=>who wrote the first version of linux kernal?
+Linux toravald
+in 1991
